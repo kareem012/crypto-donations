@@ -1,38 +1,25 @@
+# Crypto Donation Page
+
+This repository contains my custom HTML donation page with QR codes and copy buttons.  
+To view it live, check the **GitHub Pages** link once published.
+
+---
+
+## Source Code
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Support My Work - Crypto Donations</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #0d1117;
-      color: #f0f6fc;
-      text-align: center;
-      padding: 20px;
-      line-height: 1.6;
-    }
-    h1 {
-      margin-bottom: 10px;
-      font-size: 28px;
-    }
-    p {
-      margin-bottom: 30px;
-      color: #8b949e;
-      font-size: 16px;
-    }
-    .wallet {
-      background: #161b22;
-      padding: 20px;
-      margin: 20px auto;
-      border-radius: 12px;
-      max-width: 650px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.6);
-    }
-    .wallet h2 {
-      margin: 0 0 10px;
-      font-size: 20px;
+  ...
+</head>
+<body>
+  <!-- your HTML content here -->
+</body>
+</html>      font-size: 20px;
       color: #58a6ff;
     }
     .address {
