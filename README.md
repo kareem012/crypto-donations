@@ -1,7 +1,4 @@
-Crypto Donation Page
-
-This repository contains my custom HTML donation page with QR codes and copy buttons.
-To view it live, upload the index.html file to GitHub Pages.
+<h1>Crypto Donation Page
 
 
   <h1>Support My Work with Crypto Donations</h1>
