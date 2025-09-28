@@ -8,7 +8,12 @@
     <h2>Solana</h2>
     <div class="address">J9f1UQt7CtYeEPo1UvfiCRdHpZgWWHapAEVMwC6oo3kV</div>
     <div class="buttons">
-      <button onclick="copyAddress('J9f1UQt7CtYeEPo1UvfiCRdHpZgWWHapAEVMwC6oo3kV')">📋 Copy Address</button>
+      <button
+onclick="copyAddress('bc1qmtx8f50v3xmvggmjc92jagcm6l3t5725e8ljn2')">📋 Copy Address</button>
+      <button onclick="downloadQR('btc-qr')">💾 Save QR</button>
+    </div>
+    <div><img id="btc-qr" src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=bc1qmtx8f50v3xmvggmjc92jagcm6l3t5725e8ljn2" alt="Bitcoin QR"></div>
+  </div> onclick="copyAddress('J9f1UQt7CtYeEPo1UvfiCRdHpZgWWHapAEVMwC6oo3kV')">📋 Copy Address</button>
       <button onclick="downloadQR('solana-qr')">💾 Save QR</button>
     </div>
     <div><img id="solana-qr" src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=J9f1UQt7CtYeEPo1UvfiCRdHpZgWWHapAEVMwC6oo3kV" alt="Solana QR"></div>
@@ -58,27 +63,4 @@
     <h2>Bitcoin</h2>
     <div class="address">bc1qmtx8f50v3xmvggmjc92jagcm6l3t5725e8ljn2</div>
     <div class="buttons">
-      <button onclick="copyAddress('bc1qmtx8f50v3xmvggmjc92jagcm6l3t5725e8ljn2')">📋 Copy Address</button>
-      <button onclick="downloadQR('btc-qr')">💾 Save QR</button>
-    </div>
-    <div><img id="btc-qr" src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=bc1qmtx8f50v3xmvggmjc92jagcm6l3t5725e8ljn2" alt="Bitcoin QR"></div>
-  </div>
-
-  <script>
-    function copyAddress(address) {
-      navigator.clipboard.writeText(address).then(() => {
-        alert("Address copied to clipboard: " + address);
-      });
-    }
-
-    function downloadQR(id) {
-      const img = document.getElementById(id);
-      const link = document.createElement('a');
-      link.href = img.src;
-      link.download = id + '.png';
-      link.click();
-    }
-  </script>
-</body>
-</html>
-
+      <button 
