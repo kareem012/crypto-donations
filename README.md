@@ -8,6 +8,16 @@ Thank you for your kindness and support.
 
 You can support me by donating via any of the following cryptocurrency wallets:
 
+### USDT on Solana network
+J9f1UQt7CtYeEPo1UvfiCRdHpZgWWHapAEVMwC6oo3kV  
+![USDT QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=J9f1UQt7CtYeEPo1UvfiCRdHpZgWWHapAEVMwC6oo3kV)
+
+
+### USDC on Solana network
+J9f1UQt7CtYeEPo1UvfiCRdHpZgWWHapAEVMwC6oo3kV  
+![USDC QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=J9f1UQt7CtYeEPo1UvfiCRdHpZgWWHapAEVMwC6oo3kV)
+
+
 ### Bitcoin
 `bc1qmtx8f50v3xmvggmjc92jagcm6l3t5725e8ljn2`  
 ![Bitcoin QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=bc1qmtx8f50v3xmvggmjc92jagcm6l3t5725e8ljn2)
