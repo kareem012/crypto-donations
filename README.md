@@ -60,7 +60,4 @@ onclick="copyAddress('bc1qmtx8f50v3xmvggmjc92jagcm6l3t5725e8ljn2')">📋 Copy Ad
   </div>
 
   <div class="wallet">
-    <h2>Bitcoin</h2>
-    <div class="address">bc1qmtx8f50v3xmvggmjc92jagcm6l3t5725e8ljn2</div>
-    <div class="buttons">
-      <button 
+   <h2>Bitcoin</h2>     <div class="address">bc1qmtx8f50v3xmvggmjc92jagcm6l3t5725e8ljn2</div>     <div class="buttons">       <button onclick="copyAddress('bc1qmtx8f50v3xmvggmjc92jagcm6l3t5725e8ljn2')">📋 Copy Address</button>       <button onclick="downloadQR('btc-qr')">💾 Save QR</button>     </div>     <div><img id="btc-qr" src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=bc1qmtx8f50v3xmvggmjc92jagcm6l3t5725e8ljn2" alt="Bitcoin QR"></div>   </div>   
