@@ -10,34 +10,26 @@ You can support me by donating via any of the following cryptocurrency wallets:
 
 ### Bitcoin
 `bc1qmtx8f50v3xmvggmjc92jagcm6l3t5725e8ljn2`  
-![Bitcoin QR Code](https://link-to-your-bitcoin-qr-code.png)
+![Bitcoin QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=bc1qmtx8f50v3xmvggmjc92jagcm6l3t5725e8ljn2)
 
 ### Ethereum
 `0xeFe4E96D46303CF95efe53AEafC5766E5192c6c7`  
-![Ethereum QR Code](https://link-to-your-ethereum-qr-code.png)
+![Ethereum QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=0xeFe4E96D46303CF95efe53AEafC5766E5192c6c7)
 
 ### Solana
 `J9f1UQt7CtYeEPo1UvfiCRdHpZgWWHapAEVMwC6oo3kV`  
-![Solana QR Code](https://link-to-your-solana-qr-code.png)
+![Solana QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=J9f1UQt7CtYeEPo1UvfiCRdHpZgWWHapAEVMwC6oo3kV)
 
 ### Sui
 `0x9d15eaf9c2efb4361d3f8d4119b272f309aba9fdd0f5db093827f9b9d7a5df10`  
-![Sui QR Code](https://link-to-your-sui-qr-code.png)
+![Sui QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=0x9d15eaf9c2efb4361d3f8d4119b272f309aba9fdd0f5db093827f9b9d7a5df10)
 
 ### Base
 `0xeFe4E96D46303CF95efe53AEafC5766E5192c6c7`  
-![Base QR Code](https://link-to-your-base-qr-code.png)
+![Base QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=0xeFe4E96D46303CF95efe53AEafC5766E5192c6c7)
 
 ### Polygon
 `0xeFe4E96D46303CF95efe53AEafC5766E5192c6c7`  
-![Polygon QR Code](https://link-to-your-polygon-qr-code.png)
-
-## Scan QR Code
-
-Scan the QR code below to donate directly to my wallet:
-
-![QR Code](https://link-to-your-general-qr-code.png)
-
----
+![Polygon QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=0xeFe4E96D46303CF95efe53AEafC5766E5192c6c7)
 
 **Note**: For a smooth donation experience, copy the wallet addresses manually or use the respective QR codes to send your donation directly.
