@@ -24,12 +24,5 @@ You can support me by donating via any of the following cryptocurrency wallets:
 `0x9d15eaf9c2efb4361d3f8d4119b272f309aba9fdd0f5db093827f9b9d7a5df10`  
 ![Sui QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=0x9d15eaf9c2efb4361d3f8d4119b272f309aba9fdd0f5db093827f9b9d7a5df10)
 
-### Base
-`0xeFe4E96D46303CF95efe53AEafC5766E5192c6c7`  
-![Base QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=0xeFe4E96D46303CF95efe53AEafC5766E5192c6c7)
-
-### Polygon
-`0xeFe4E96D46303CF95efe53AEafC5766E5192c6c7`  
-![Polygon QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=0xeFe4E96D46303CF95efe53AEafC5766E5192c6c7)
 
 **Note**: For a smooth donation experience, copy the wallet addresses manually or use the respective QR codes to send your donation directly.
