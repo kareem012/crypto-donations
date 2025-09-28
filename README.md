@@ -1,137 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Crypto Donations</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support My Work - Crypto Donations</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #0d1117;
-      color: #f0f6fc;
+      background: #f5f7fa;
+      color: #333;
+      margin: 0;
+      padding: 0;
       text-align: center;
+    }
+    header {
+      background: #222;
+      color: white;
       padding: 20px;
-      line-height: 1.6;
+    }
+    .container {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
     h1 {
-      margin-bottom: 20px;
-      font-size: 32px;
-      color: #58a6ff;
+      margin-bottom: 10px;
     }
     p {
       margin-bottom: 30px;
-      color: #8b949e;
-      font-size: 16px;
+      font-size: 1.1em;
     }
     .wallet {
-      background: #161b22;
+      border: 1px solid #ddd;
+      border-radius: 10px;
       padding: 20px;
-      margin: 20px auto;
-      border-radius: 12px;
-      max-width: 600px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      margin-bottom: 25px;
+      text-align: center;
     }
     .wallet h2 {
-      margin: 0 0 10px;
-      font-size: 24px;
-      color: #58a6ff;
+      margin-bottom: 10px;
+    }
+    .wallet img {
+      width: 140px;
+      height: 140px;
+      margin: 15px 0;
     }
     .address {
       word-break: break-all;
-      font-size: 14px;
-      margin-bottom: 15px;
-      color: #d0d7de;
-    }
-    .buttons {
-      display: flex;
-      justify-content: center;
-      gap: 12px;
-      margin-bottom: 15px;
-      flex-wrap: wrap;
+      font-family: monospace;
+      margin: 10px 0;
+      font-size: 0.95em;
     }
     button {
-      background: #238636;
-      border: none;
+      margin: 5px;
       padding: 8px 14px;
+      border: none;
       border-radius: 6px;
       cursor: pointer;
-      font-weight: bold;
+      font-size: 0.9em;
+    }
+    .copy-btn {
+      background: #4caf50;
       color: white;
     }
-    button:hover {
-      background: #2ea043;
+    .download-btn {
+      background: #2196f3;
+      color: white;
     }
-    img {
-      margin-top: 10px;
-      width: 150px;
-      height: 150px;
-      border-radius: 8px;
-      border: 1px solid #30363d;
+    footer {
+      margin: 40px 0 20px;
+      font-size: 0.85em;
+      color: #666;
     }
   </style>
 </head>
 <body>
-  <h1>Support My Work with Crypto Donations</h1>
-  <p>Your contribution helps me continue creating meaningful content and building my future from Gaza.  
-  Thank you for your generosity ❤️</p>
+  <header>
+    <h1>Support My Work</h1>
+    <p>If you appreciate my content, consider donating crypto to help me continue creating from Gaza.</p>
+  </header>
 
-  <!-- Bitcoin -->
-  <div class="wallet">
-    <h2>Bitcoin</h2>
-    <div class="address">bc1qexamplebitcoinaddress1234567890</div>
-    <div class="buttons">
-      <button onclick="copyAddress('bc1qexamplebitcoinaddress1234567890')">📋 Copy Address</button>
-      <a href="bitcoin:bc1qexamplebitcoinaddress1234567890" download>
-        <button>💾 Save QR</button>
-      </a>
+  <div class="container">
+
+    <!-- Bitcoin -->
+    <div class="wallet">
+      <h2>Bitcoin (BTC)</h2>
+      <img src="https://api.qrserver.com/v1/create-qr-code/?data=bc1qmtx8f50v3xmvggmjc92jagcm6l3t5725e8ljn2&size=200x200" alt="Bitcoin QR">
+      <div class="address">bc1qmtx8f50v3xmvggmjc92jagcm6l3t5725e8ljn2</div>
+      <button class="copy-btn" onclick="copyAddress('bc1qmtx8f50v3xmvggmjc92jagcm6l3t5725e8ljn2')">Copy Address</button>
+      <button class="download-btn" onclick="downloadQR('https://api.qrserver.com/v1/create-qr-code/?data=bc1qmtx8f50v3xmvggmjc92jagcm6l3t5725e8ljn2&size=200x200', 'bitcoin-qr.png')">Download QR</button>
     </div>
-    <img src="bitcoin-qr.png" alt="Bitcoin QR Code">
+
+    <!-- Ethereum -->
+    <div class="wallet">
+      <h2>Ethereum (ETH)</h2>
+      <img src="https://api.qrserver.com/v1/create-qr-code/?data=0xeFe4E96D46303CF95efe53AEafC5766E5192c6c7&size=200x200" alt="Ethereum QR">
+      <div class="address">0xeFe4E96D46303CF95efe53AEafC5766E5192c6c7</div>
+      <button class="copy-btn" onclick="copyAddress('0xeFe4E96D46303CF95efe53AEafC5766E5192c6c7')">Copy Address</button>
+      <button class="download-btn" onclick="downloadQR('https://api.qrserver.com/v1/create-qr-code/?data=0xeFe4E96D46303CF95efe53AEafC5766E5192c6c7&size=200x200', 'ethereum-qr.png')">Download QR</button>
+    </div>
+
+    <!-- Polygon -->
+    <div class="wallet">
+      <h2>Polygon (MATIC)</h2>
+      <img src="https://api.qrserver.com/v1/create-qr-code/?data=0xeFe4E96D46303CF95efe53AEafC5766E5192c6c7&size=200x200" alt="Polygon QR">
+      <div class="address">0xeFe4E96D46303CF95efe53AEafC5766E5192c6c7</div>
+      <button class="copy-btn" onclick="copyAddress('0xeFe4E96D46303CF95efe53AEafC5766E5192c6c7')">Copy Address</button>
+      <button class="download-btn" onclick="downloadQR('https://api.qrserver.com/v1/create-qr-code/?data=0xeFe4E96D46303CF95efe53AEafC5766E5192c6c7&size=200x200', 'polygon-qr.png')">Download QR</button>
+    </div>
+
+    <!-- Base -->
+    <div class="wallet">
+      <h2>Base</h2>
+      <img src="https://api.qrserver.com/v1/create-qr-code/?data=0xeFe4E96D46303CF95efe53AEafC5766E5192c6c7&size=200x200" alt="Base QR">
+      <div class="address">0xeFe4E96D46303CF95efe53AEafC5766E5192c6c7</div>
+      <button class="copy-btn" onclick="copyAddress('0xeFe4E96D46303CF95efe53AEafC5766E5192c6c7')">Copy Address</button>
+      <button class="download-btn" onclick="downloadQR('https://api.qrserver.com/v1/create-qr-code/?data=0xeFe4E96D46303CF95efe53AEafC5766E5192c6c7&size=200x200', 'base-qr.png')">Download QR</button>
+    </div>
+
+    <!-- Solana -->
+    <div class="wallet">
+      <h2>Solana (SOL)</h2>
+      <img src="https://api.qrserver.com/v1/create-qr-code/?data=J9f1UQt7CtYeEPo1UvfiCRdHpZgWWHapAEVMwC6oo3kV&size=200x200" alt="Solana QR">
+      <div class="address">J9f1UQt7CtYeEPo1UvfiCRdHpZgWWHapAEVMwC6oo3kV</div>
+      <button class="copy-btn" onclick="copyAddress('J9f1UQt7CtYeEPo1UvfiCRdHpZgWWHapAEVMwC6oo3kV')">Copy Address</button>
+      <button class="download-btn" onclick="downloadQR('https://api.qrserver.com/v1/create-qr-code/?data=J9f1UQt7CtYeEPo1UvfiCRdHpZgWWHapAEVMwC6oo3kV&size=200x200', 'solana-qr.png')">Download QR</button>
+    </div>
+
+    <!-- Sui -->
+    <div class="wallet">
+      <h2>Sui</h2>
+      <img src="https://api.qrserver.com/v1/create-qr-code/?data=0x9d15eaf9c2efb4361d3f8d4119b272f309aba9fdd0f5db093827f9b9d7a5df10&size=200x200" alt="Sui QR">
+      <div class="address">0x9d15eaf9c2efb4361d3f8d4119b272f309aba9fdd0f5db093827f9b9d7a5df10</div>
+      <button class="copy-btn" onclick="copyAddress('0x9d15eaf9c2efb4361d3f8d4119b272f309aba9fdd0f5db093827f9b9d7a5df10')">Copy Address</button>
+      <button class="download-btn" onclick="downloadQR('https://api.qrserver.com/v1/create-qr-code/?data=0x9d15eaf9c2efb4361d3f8d4119b272f309aba9fdd0f5db093827f9b9d7a5df10&size=200x200', 'sui-qr.png')">Download QR</button>
+    </div>
+
   </div>
 
-  <!-- Solana -->
-  <div class="wallet">
-    <h2>Solana</h2>
-    <div class="address">J9f1UQT7CYeEpo1UvfiCRdHpZgWWHapAEVMwC6oo3kV</div>
-    <div class="buttons">
-      <button onclick="copyAddress('J9f1UQT7CYeEpo1UvfiCRdHpZgWWHapAEVMwC6oo3kV')">📋 Copy Address</button>
-      <a href="solana:J9f1UQT7CYeEpo1UvfiCRdHpZgWWHapAEVMwC6oo3kV" download>
-        <button>💾 Save QR</button>
-      </a>
-    </div>
-    <img src="solana-qr.png" alt="Solana QR Code">
-  </div>
-
-  <!-- Ethereum -->
-  <div class="wallet">
-    <h2>Ethereum</h2>
-    <div class="address">0xFe4E96D46303CF95efe53AEafC5766E5192c6c7</div>
-    <div class="buttons">
-      <button onclick="copyAddress('0xFe4E96D46303CF95efe53AEafC5766E5192c6c7')">📋 Copy Address</button>
-      <a href="ethereum:0xFe4E96D46303CF95efe53AEafC5766E5192c6c7" download>
-        <button>💾 Save QR</button>
-      </a>
-    </div>
-    <img src="ethereum-qr.png" alt="Ethereum QR Code">
-  </div>
-
-  <!-- Base -->
-  <div class="wallet">
-    <h2>Base</h2>
-    <div class="address">0xFe4E96D46303CF95efe53AEafC5766E5192c6c7</div>
-    <div class="buttons">
-      <button onclick="copyAddress('0xFe4E96D46303CF95efe53AEafC5766E5192c6c7')">📋 Copy Address</button>
-      <a href="base:0xFe4E96D46303CF95efe53AEafC5766E5192c6c7" download>
-        <button>💾 Save QR</button>
-      </a>
-    </div>
-    <img src="base-qr.png" alt="Base QR Code">
-  </div>
+  <footer>
+    <p>Thank you for supporting my journey. Every contribution matters ❤️</p>
+  </footer>
 
   <script>
     function copyAddress(address) {
       navigator.clipboard.writeText(address).then(() => {
         alert("Address copied: " + address);
       });
+    }
+    function downloadQR(url, filename) {
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = filename;
+      link.click();
     }
   </script>
 </body>
